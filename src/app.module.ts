@@ -5,9 +5,10 @@ import { CustomersModule } from './customers/customers.module';
 import { StatesModule } from './states/states.module';
 import { StoresModule } from './stores/stores.module';
 import { WalletsModule } from './wallets/wallets.module';
+import { TrackingModule } from './tracking/tracking.module';
 
 @Module({
-  imports: [CustomersModule, StatesModule, StoresModule, WalletsModule],
+  imports: [CustomersModule, StatesModule, StoresModule, WalletsModule, TrackingModule],
   controllers: [AppController],
   providers: [AppService],
 })
