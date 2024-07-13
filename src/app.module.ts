@@ -8,10 +8,32 @@ import { WalletsModule } from './wallets/wallets.module';
 import { TrackingModule } from './tracking/tracking.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ExportModule } from './export/export.module';
+import * as dotenv from 'dotenv';
 
-const dbConfig = require("../ormconfig.json"); 
+dotenv.config();
+
 @Module({
-  imports: [TypeOrmModule.forRoot(dbConfig), CustomersModule, StatesModule, StoresModule, WalletsModule, TrackingModule, ExportModule],
+  imports: [
+    TypeOrmModule.forRoot({
+      type: 'postgres',
+      host: process.env.DB_HOST,
+      port: parseInt(process.env.DB_PORT, 10),
+      username: process.env.DB_USERNAME,
+      password: process.env.DB_PASSWORD,
+      database: process.env.DB_NAME,
+      ssl: {
+        rejectUnauthorized: false,
+      },    
+      autoLoadEntities: true,
+      synchronize: true,
+    }),
+    CustomersModule,
+    StoresModule,
+    TrackingModule,
+    WalletsModule,
+    ExportModule,
+    StatesModule,
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
