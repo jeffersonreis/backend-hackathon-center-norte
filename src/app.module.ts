@@ -2,13 +2,13 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { CustomersModule } from './customers/customers.module';
-import { StatesModule } from './states/states.module';
 import { StoresModule } from './stores/stores.module';
 import { WalletsModule } from './wallets/wallets.module';
 import { TrackingModule } from './tracking/tracking.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ExportModule } from './export/export.module';
 import * as dotenv from 'dotenv';
+import { ShoppingModule } from './shopping/shopping.module';
 
 dotenv.config();
 
@@ -32,7 +32,7 @@ dotenv.config();
     TrackingModule,
     WalletsModule,
     ExportModule,
-    StatesModule,
+    ShoppingModule,
   ],
   controllers: [AppController],
   providers: [AppService],

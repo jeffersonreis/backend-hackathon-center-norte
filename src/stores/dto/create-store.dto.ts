@@ -1,9 +1,9 @@
 export class CreateStoreDto {
   readonly id: number;
+  readonly shoppingId: number;
   readonly name: string;
-  readonly address: string;
-  readonly city: string;
-  readonly state: string;
-  readonly zipCode: string;
   readonly phone: string;
+  readonly email: string;
+  readonly website: string;
+  readonly openingHours: string;
 }
