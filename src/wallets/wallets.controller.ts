@@ -24,7 +24,7 @@ export class WalletsController {
   }
 
   @Patch(':customerId')
-  update(@Param('customerId') customerId: string, @Body() updateWalletDto: UpdateWalletDto) {
+  update(@Param('customerId') customerId: number, @Body() updateWalletDto: UpdateWalletDto) {
     return this.walletsService.update(customerId, updateWalletDto);
   }
 

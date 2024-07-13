@@ -1,48 +1,54 @@
+// src/stores/stores.service.ts
 import { Injectable, BadRequestException, NotFoundException } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
+import { Repository } from 'typeorm';
 import { CreateStoreDto } from './dto/create-store.dto';
 import { UpdateStoreDto } from './dto/update-store.dto';
+import { Store } from './stores.entity';
 
 @Injectable()
 export class StoresService {
-  private stores = []; // Substituir por uma conexão de banco de dados real
+  constructor(
+    @InjectRepository(Store)
+    private readonly storeRepository: Repository<Store>,
+  ) {}
 
-  create(createStoreDto: CreateStoreDto) {
-    const existingStore = this.stores.find(store => store.id === createStoreDto.id);
+  async create(createStoreDto: CreateStoreDto): Promise<Store> {
+    const existingStore = await this.storeRepository.findOne({
+      where: { id: createStoreDto.id },
+    });
     if (existingStore) {
       throw new BadRequestException(`Store with ID ${createStoreDto.id} already exists.`);
     }
-    this.stores.push(createStoreDto);
-    return 'Store created';
+    const store = this.storeRepository.create(createStoreDto);
+    return this.storeRepository.save(store);
   }
 
-  findAll() {
-    return this.stores;
+  findAll(): Promise<Store[]> {
+    return this.storeRepository.find();
   }
 
-  findOne(id: number) {
-    const store = this.stores.find(store => store.id === id);
+  async findOne(id: number): Promise<Store> {
+    const store = await this.storeRepository.findOne({ where: { id } });
     if (!store) {
       throw new NotFoundException(`Store with ID ${id} not found.`);
     }
     return store;
   }
 
-  update(id: number, updateStoreDto: UpdateStoreDto) {
-    const storeIndex = this.stores.findIndex(store => store.id === id);
-    if (storeIndex === -1) {
+  async update(id: number, updateStoreDto: UpdateStoreDto): Promise<Store> {
+    const store = await this.storeRepository.preload({
+      id,
+      ...updateStoreDto,
+    });
+    if (!store) {
       throw new NotFoundException(`Store with ID ${id} not found.`);
     }
-    const existingStore = this.stores[storeIndex];
-    this.stores[storeIndex] = { ...existingStore, ...updateStoreDto };
-    return `Store #${id} updated`;
+    return this.storeRepository.save(store);
   }
 
-  remove(id: number) {
-    const storeIndex = this.stores.findIndex(store => store.id === id);
-    if (storeIndex === -1) {
-      throw new NotFoundException(`Store with ID ${id} not found.`);
-    }
-    this.stores.splice(storeIndex, 1);
-    return `Store #${id} removed`;
+  async remove(id: number): Promise<void> {
+    const store = await this.findOne(id);
+    await this.storeRepository.remove(store);
   }
 }

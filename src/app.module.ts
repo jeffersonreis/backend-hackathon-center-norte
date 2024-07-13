@@ -6,9 +6,13 @@ import { StatesModule } from './states/states.module';
 import { StoresModule } from './stores/stores.module';
 import { WalletsModule } from './wallets/wallets.module';
 import { TrackingModule } from './tracking/tracking.module';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { ExportController } from './export/export.controller';
+import { ExportModule } from './export/export.module';
 
+const dbConfig = require("../ormconfig.json"); 
 @Module({
-  imports: [CustomersModule, StatesModule, StoresModule, WalletsModule, TrackingModule],
+  imports: [TypeOrmModule.forRoot(dbConfig), CustomersModule, StatesModule, StoresModule, WalletsModule, TrackingModule, ExportModule],
   controllers: [AppController],
   providers: [AppService],
 })

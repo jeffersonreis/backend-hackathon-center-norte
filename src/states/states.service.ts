@@ -1,48 +1,55 @@
 import { Injectable, BadRequestException, NotFoundException } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
+import { Repository } from 'typeorm';
 import { CreateStateDto } from './dto/create-state.dto';
 import { UpdateStateDto } from './dto/update-state.dto';
+import { States } from './states.entity';
 
 @Injectable()
 export class StatesService {
-  private states = []; // Substituir por uma conexão de banco de dados real
+  constructor(
+    @InjectRepository(States)
+    private readonly stateRepository: Repository<States>,
+  ) {}
 
-  create(createStateDto: CreateStateDto) {
-    const existingState = this.states.find(state => state.value === createStateDto.value);
+  async create(createStateDto: CreateStateDto): Promise<States> {
+    const existingState = await this.stateRepository.findOne({
+      where: { value: createStateDto.value },
+    });
     if (existingState) {
-      throw new BadRequestException(`State with value ${createStateDto.value} already exists.`);
+      throw new BadRequestException(`States with value ${createStateDto.value} already exists.`);
     }
-    this.states.push(createStateDto);
-    return 'State created';
+    const state = this.stateRepository.create(createStateDto);
+    return this.stateRepository.save(state);
   }
 
-  findAll() {
-    return this.states;
+  findAll(): Promise<States[]> {
+    return this.stateRepository.find();
   }
 
-  findOne(value: string) {
-    const state = this.states.find(state => state.value === value);
+  async findOne(value: string): Promise<States> {
+    const state = await this.stateRepository.findOne({
+      where: { value },
+    });
     if (!state) {
-      throw new NotFoundException(`State with value ${value} not found.`);
+      throw new NotFoundException(`States with value ${value} not found.`);
     }
     return state;
   }
 
-  update(value: string, updateStateDto: UpdateStateDto) {
-    const stateIndex = this.states.findIndex(state => state.value === value);
-    if (stateIndex === -1) {
-      throw new NotFoundException(`State with value ${value} not found.`);
+  async update(value: string, updateStateDto: UpdateStateDto): Promise<States> {
+    const state = await this.stateRepository.findOne({
+      where: { value },
+    });
+    if (!state) {
+      throw new NotFoundException(`States with value ${value} not found.`);
     }
-    const existingState = this.states[stateIndex];
-    this.states[stateIndex] = { ...existingState, ...updateStateDto };
-    return `State ${value} updated`;
+    Object.assign(state, updateStateDto);
+    return this.stateRepository.save(state);
   }
 
-  remove(value: string) {
-    const stateIndex = this.states.findIndex(state => state.value === value);
-    if (stateIndex === -1) {
-      throw new NotFoundException(`State with value ${value} not found.`);
-    }
-    this.states.splice(stateIndex, 1);
-    return `State ${value} removed`;
+  async remove(value: string): Promise<void> {
+    const state = await this.findOne(value);
+    await this.stateRepository.remove(state);
   }
 }

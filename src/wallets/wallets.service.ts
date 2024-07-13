@@ -1,48 +1,55 @@
 import { Injectable, BadRequestException, NotFoundException } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
+import { Repository } from 'typeorm';
 import { CreateWalletDto } from './dto/create-wallet.dto';
 import { UpdateWalletDto } from './dto/update-wallet.dto';
+import { Wallet } from './wallet.entity';
 
 @Injectable()
 export class WalletsService {
-  private wallets = []; // Substituir por uma conexão de banco de dados real
+  constructor(
+    @InjectRepository(Wallet)
+    private readonly walletRepository: Repository<Wallet>,
+  ) {}
 
-  create(createWalletDto: CreateWalletDto) {
-    const existingWallet = this.wallets.find(wallet => wallet.customerId === createWalletDto.customerId);
+  async create(createWalletDto: CreateWalletDto): Promise<Wallet> {
+    const existingWallet = await this.walletRepository.findOne({
+      where: { customerId: createWalletDto.customerId },
+    });
     if (existingWallet) {
       throw new BadRequestException(`Wallet for customer ID ${createWalletDto.customerId} already exists.`);
     }
-    this.wallets.push(createWalletDto);
-    return 'Wallet created';
+    const wallet = this.walletRepository.create(createWalletDto);
+    return this.walletRepository.save(wallet);
   }
 
-  findAll() {
-    return this.wallets;
+  findAll(): Promise<Wallet[]> {
+    return this.walletRepository.find();
   }
 
-  findOne(customerId: string) {
-    const wallet = this.wallets.find(wallet => wallet.customerId === customerId);
+  async findOne(customerId: string): Promise<Wallet> {
+    const wallet = await this.walletRepository.findOne({
+      where: { customerId },
+    });
     if (!wallet) {
       throw new NotFoundException(`Wallet for customer ID ${customerId} not found.`);
     }
     return wallet;
   }
 
-  update(customerId: string, updateWalletDto: UpdateWalletDto) {
-    const walletIndex = this.wallets.findIndex(wallet => wallet.customerId === customerId);
-    if (walletIndex === -1) {
+  async update(customerId: number, updateWalletDto: UpdateWalletDto): Promise<Wallet> {
+    const wallet = await this.walletRepository.preload({
+      id: customerId,  // Assumindo que `customerId` é a chave primária.
+      ...updateWalletDto,
+    });
+    if (!wallet) {
       throw new NotFoundException(`Wallet for customer ID ${customerId} not found.`);
     }
-    const existingWallet = this.wallets[walletIndex];
-    this.wallets[walletIndex] = { ...existingWallet, ...updateWalletDto };
-    return `Wallet for customer #${customerId} updated`;
+    return this.walletRepository.save(wallet);
   }
 
-  remove(customerId: string) {
-    const walletIndex = this.wallets.findIndex(wallet => wallet.customerId === customerId);
-    if (walletIndex === -1) {
-      throw new NotFoundException(`Wallet for customer ID ${customerId} not found.`);
-    }
-    this.wallets.splice(walletIndex, 1);
-    return `Wallet for customer #${customerId} removed`;
+  async remove(customerId: string): Promise<void> {
+    const wallet = await this.findOne(customerId);
+    await this.walletRepository.remove(wallet);
   }
 }

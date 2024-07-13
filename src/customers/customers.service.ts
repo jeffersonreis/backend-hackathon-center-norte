@@ -1,48 +1,47 @@
-import { Injectable, BadRequestException, NotFoundException } from '@nestjs/common';
+import { Injectable, NotFoundException, BadRequestException } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
+import { Repository } from 'typeorm';
 import { CreateCustomerDto } from './dto/create-customer.dto';
 import { UpdateCustomerDto } from './dto/update-customer.dto';
+import { Customer } from './customer.entity';
 
 @Injectable()
 export class CustomersService {
-  private customers = []; // Substituir por uma conexão de banco de dados real
+  constructor(
+    @InjectRepository(Customer)
+    private customersRepository: Repository<Customer>,
+  ) {}
 
   create(createCustomerDto: CreateCustomerDto) {
-    const existingCustomer = this.customers.find(customer => customer.id === createCustomerDto.id);
-    if (existingCustomer) {
-      throw new BadRequestException(`Customer with ID ${createCustomerDto.id} already exists.`);
-    }
-    this.customers.push(createCustomerDto);
-    return 'Customer created';
+    const customer = this.customersRepository.create(createCustomerDto);
+    return this.customersRepository.save(customer);
   }
 
   findAll() {
-    return this.customers;
+    return this.customersRepository.find();
   }
 
-  findOne(id: number) {
-    const customer = this.customers.find(customer => customer.id === id);
+  async findOne(id: number) {
+    const customer = await this.customersRepository.findOne({ where: { id } });
     if (!customer) {
       throw new NotFoundException(`Customer with ID ${id} not found.`);
     }
     return customer;
   }
 
-  update(id: number, updateCustomerDto: UpdateCustomerDto) {
-    const customerIndex = this.customers.findIndex(customer => customer.id === id);
-    if (customerIndex === -1) {
+  async update(id: number, updateCustomerDto: UpdateCustomerDto) {
+    const result = await this.customersRepository.update(id, updateCustomerDto);
+    if (result.affected === 0) {
       throw new NotFoundException(`Customer with ID ${id} not found.`);
     }
-    const existingCustomer = this.customers[customerIndex];
-    this.customers[customerIndex] = { ...existingCustomer, ...updateCustomerDto };
-    return `Customer #${id} updated`;
+    return this.customersRepository.findOne({ where: { id } });
   }
 
-  remove(id: number) {
-    const customerIndex = this.customers.findIndex(customer => customer.id === id);
-    if (customerIndex === -1) {
+  async remove(id: number) {
+    const result = await this.customersRepository.delete(id);
+    if (result.affected === 0) {
       throw new NotFoundException(`Customer with ID ${id} not found.`);
     }
-    this.customers.splice(customerIndex, 1);
     return `Customer #${id} removed`;
   }
 }
