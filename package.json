@@ -28,11 +28,12 @@
     "@nestjs/typeorm": "^10.0.2",
     "axios": "^1.7.2",
     "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.5",
     "pg": "^8.12.0",
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.8.1",
-    "sqlite3": "^5.1.7",
-    "typeorm": "^0.3.20"
+    "typeorm": "^0.3.20",
+    "vercel": "^34.3.1"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",
