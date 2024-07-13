@@ -32,7 +32,7 @@ export class Customer {
   @Column({ type: 'date' })
   dateOfBirth: string;
 
-  @Column({ type: 'datetime' })
+  @Column({ type: 'timestamp' })
   registrationDate: string;
 
   @Column('simple-array')

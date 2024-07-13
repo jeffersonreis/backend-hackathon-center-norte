@@ -7,7 +7,6 @@ import { StoresModule } from './stores/stores.module';
 import { WalletsModule } from './wallets/wallets.module';
 import { TrackingModule } from './tracking/tracking.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { ExportController } from './export/export.controller';
 import { ExportModule } from './export/export.module';
 
 const dbConfig = require("../ormconfig.json"); 
