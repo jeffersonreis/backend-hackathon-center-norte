@@ -6,4 +6,5 @@ export class CreateStoreDto {
   readonly email: string;
   readonly website: string;
   readonly openingHours: string;
+  readonly category: string;  
 }

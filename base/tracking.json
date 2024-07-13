@@ -1,1102 +1,452 @@
 [
   {
-    "userId": 27,
-    "latitude": 58.13952499999999,
-    "longitude": 143.383017,
-    "storeId": 46,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "Windows 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 36,
-    "latitude": 46.46048400000001,
-    "longitude": -127.685665,
-    "storeId": 24,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Windows 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 7,
-    "latitude": -78.566824,
-    "longitude": -104.131254,
-    "storeId": 47,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Android 10",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 6,
-    "latitude": 28.478395000000006,
-    "longitude": -155.562701,
-    "storeId": 15,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Android 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 49,
-    "latitude": 17.233645999999993,
-    "longitude": 174.749958,
-    "storeId": 27,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Windows 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 47,
-    "latitude": -57.72074,
-    "longitude": -34.54282599999999,
-    "storeId": 32,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "iOS 14",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 31,
-    "latitude": -62.714144000000005,
-    "longitude": 3.737770000000012,
-    "storeId": 7,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Windows 10",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 46,
-    "latitude": 18.101405999999997,
-    "longitude": -24.09340800000001,
-    "storeId": 23,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Windows 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 33,
-    "latitude": -73.801823,
-    "longitude": 109.90254700000003,
-    "storeId": 34,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "iOS 14",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 3,
-    "latitude": -38.122388,
-    "longitude": 80.549304,
-    "storeId": 47,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Windows 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 3,
-    "latitude": 24.324993000000006,
-    "longitude": -43.072114,
-    "storeId": 21,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Android 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 20,
-    "latitude": -4.128603999999996,
-    "longitude": -87.938286,
-    "storeId": 9,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "Android 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 47,
-    "latitude": 57.27504999999999,
-    "longitude": 36.35947200000001,
-    "storeId": 46,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Windows 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 18,
-    "latitude": -57.207931,
-    "longitude": -5.582022999999992,
-    "storeId": 25,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Android 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 40,
-    "latitude": -63.904187,
-    "longitude": -27.180113000000006,
-    "storeId": 6,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "Windows 10",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 14,
-    "latitude": -17.311745000000002,
-    "longitude": -83.180661,
-    "storeId": 28,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Android 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 44,
-    "latitude": 54.298692999999986,
-    "longitude": 175.17870499999998,
-    "storeId": 49,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Android 10",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 43,
-    "latitude": -69.22551,
-    "longitude": 89.996513,
-    "storeId": 38,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Android 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 46,
-    "latitude": -2.1387849999999986,
-    "longitude": -2.579496000000006,
-    "storeId": 38,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "iOS 14",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 40,
-    "latitude": -34.958709,
-    "longitude": 146.11232,
-    "storeId": 37,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "Android 10",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 24,
-    "latitude": 60.07660100000001,
-    "longitude": 111.730548,
-    "storeId": 47,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Windows 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 10,
-    "latitude": 65.49033299999999,
-    "longitude": 144.95547699999997,
-    "storeId": 20,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Windows 10",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 48,
-    "latitude": 87.698319,
-    "longitude": -64.709526,
-    "storeId": 32,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "Android 10",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 5,
-    "latitude": -53.142168,
-    "longitude": -170.68799,
-    "storeId": 16,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "iOS 14",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 32,
-    "latitude": 68.72685100000001,
-    "longitude": 139.62174399999998,
-    "storeId": 32,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "Windows 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 26,
-    "latitude": -71.914404,
-    "longitude": -39.705907999999994,
-    "storeId": 43,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Windows 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 4,
-    "latitude": 87.31105,
-    "longitude": -42.066632999999996,
-    "storeId": 38,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Android 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 35,
-    "latitude": -83.16898,
-    "longitude": -51.95450700000001,
-    "storeId": 19,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "Android 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 4,
-    "latitude": -20.297371999999996,
-    "longitude": -156.015332,
-    "storeId": 22,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Android 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 37,
-    "latitude": -8.209954999999994,
-    "longitude": -109.336542,
-    "storeId": 26,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "iOS 14",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 25,
-    "latitude": -23.932328999999996,
-    "longitude": 53.54401999999999,
-    "storeId": 31,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "iOS 14",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 35,
-    "latitude": -47.833419,
-    "longitude": -114.691636,
-    "storeId": 33,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "iOS 14",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 19,
-    "latitude": -57.247998,
-    "longitude": 146.48481099999998,
-    "storeId": 24,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Windows 10",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 37,
-    "latitude": -31.398682,
-    "longitude": 70.8577,
-    "storeId": 11,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Windows 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 16,
-    "latitude": -24.232529,
-    "longitude": -47.58385200000001,
-    "storeId": 38,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Windows 10",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 28,
-    "latitude": 79.119238,
-    "longitude": -115.396108,
-    "storeId": 1,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "iOS 14",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 39,
-    "latitude": -84.719025,
-    "longitude": -57.315287,
-    "storeId": 17,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "Android 10",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 33,
-    "latitude": 23.704804999999993,
-    "longitude": -106.219537,
-    "storeId": 31,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Windows 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 38,
-    "latitude": -87.244476,
-    "longitude": -155.146474,
-    "storeId": 49,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Android 10",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 50,
-    "latitude": -27.037314000000002,
-    "longitude": 151.00953900000002,
-    "storeId": 39,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "iOS 14",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 50,
-    "latitude": 31.620041999999998,
-    "longitude": 56.177254000000005,
-    "storeId": 11,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Windows 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 43,
-    "latitude": -71.830692,
-    "longitude": -133.706052,
-    "storeId": 13,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Android 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 4,
-    "latitude": -66.930089,
-    "longitude": -66.538644,
-    "storeId": 50,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "iOS 14",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 17,
-    "latitude": 83.867211,
-    "longitude": 0.054133000000007314,
-    "storeId": 43,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Android 10",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 24,
-    "latitude": -83.12891,
-    "longitude": 60.97216399999999,
-    "storeId": 31,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "iOS 14",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 45,
-    "latitude": -42.733748,
-    "longitude": 134.20423599999998,
-    "storeId": 32,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Android 10",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 14,
-    "latitude": 27.170980999999998,
-    "longitude": -34.744287000000014,
-    "storeId": 15,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "Windows 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 10,
-    "latitude": 32.456523000000004,
-    "longitude": 160.642768,
-    "storeId": 25,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Windows 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 5,
-    "latitude": 51.985387,
-    "longitude": -22.11062000000001,
-    "storeId": 25,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Android 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 39,
-    "latitude": 54.494508999999994,
-    "longitude": 104.98265300000003,
-    "storeId": 9,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "iOS 14",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 29,
-    "latitude": -0.5879209999999944,
-    "longitude": -178.014311,
-    "storeId": 38,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Windows 10",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 36,
-    "latitude": 48.008679,
-    "longitude": 74.490578,
-    "storeId": 50,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "Android 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 12,
-    "latitude": 71.96283299999999,
-    "longitude": -144.695561,
-    "storeId": 37,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "Windows 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 43,
-    "latitude": -50.448238,
-    "longitude": 102.19663600000001,
-    "storeId": 45,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Android 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 40,
-    "latitude": 15.829935000000006,
-    "longitude": -162.851315,
-    "storeId": 48,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Windows 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 10,
-    "latitude": -5.934066000000001,
-    "longitude": 28.61898400000001,
-    "storeId": 11,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "Android 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 44,
-    "latitude": 62.89696799999999,
-    "longitude": 109.36668800000001,
-    "storeId": 36,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "Windows 10",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 12,
-    "latitude": -55.262997,
-    "longitude": 78.04517600000003,
-    "storeId": 35,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "Android 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
     "userId": 1,
-    "latitude": -8.952844999999996,
-    "longitude": -94.138907,
-    "storeId": 4,
+    "latitude": "-23.515793",
+    "longitude": "-46.617893",
     "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Windows 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 48,
-    "latitude": -58.707674,
-    "longitude": 48.328575,
-    "storeId": 42,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "iOS 14",
-      "app_version": "1.2.0"
+      "device_type": "Smartphone",
+      "os_version": "Android 10",
+      "app_version": "1.0.1"
     }
   },
   {
     "userId": 2,
-    "latitude": -52.685512,
-    "longitude": -18.58556999999999,
-    "storeId": 34,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Windows 10",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 39,
-    "latitude": 43.522909,
-    "longitude": 148.667464,
-    "storeId": 2,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Windows 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 12,
-    "latitude": -88.108409,
-    "longitude": 123.11084,
-    "storeId": 38,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "Windows 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 10,
-    "latitude": 31.646358000000006,
-    "longitude": 90.835419,
-    "storeId": 27,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "Windows 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 5,
-    "latitude": 11.334442999999993,
-    "longitude": 128.490432,
-    "storeId": 29,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Windows 10",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 46,
-    "latitude": -50.333332,
-    "longitude": 111.42639500000001,
-    "storeId": 33,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Android 10",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 45,
-    "latitude": 71.21899099999999,
-    "longitude": -157.086181,
-    "storeId": 17,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "iOS 14",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 33,
-    "latitude": 51.411685000000006,
-    "longitude": 7.225258999999994,
-    "storeId": 26,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Windows 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 5,
-    "latitude": 61.432041999999996,
-    "longitude": -146.24445500000002,
-    "storeId": 32,
+    "latitude": "-23.514998",
+    "longitude": "-46.618273",
     "deviceInfo": {
       "device_type": "Smartphone",
       "os_version": "iOS 14",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 48,
-    "latitude": 88.522618,
-    "longitude": 180.777448,
-    "storeId": 28,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "Windows 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 39,
-    "latitude": -89.01358,
-    "longitude": 26.33462399999999,
-    "storeId": 13,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Android 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 44,
-    "latitude": -1.9154699999999991,
-    "longitude": 58.00128799999999,
-    "storeId": 14,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Android 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 42,
-    "latitude": -83.402036,
-    "longitude": 159.29291999999998,
-    "storeId": 25,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "iOS 14",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 50,
-    "latitude": 17.520557999999994,
-    "longitude": -50.698576,
-    "storeId": 37,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Windows 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 43,
-    "latitude": -27.863045,
-    "longitude": -66.438929,
-    "storeId": 32,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "iOS 14",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 10,
-    "latitude": 76.31629899999999,
-    "longitude": -49.301101999999986,
-    "storeId": 23,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "iOS 14",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 4,
-    "latitude": -60.081984,
-    "longitude": -16.681803000000002,
-    "storeId": 16,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Windows 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 42,
-    "latitude": -65.938319,
-    "longitude": 123.460534,
-    "storeId": 37,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "iOS 14",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 31,
-    "latitude": 1.9249599999999987,
-    "longitude": -24.126351999999997,
-    "storeId": 4,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "iOS 14",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 41,
-    "latitude": 26.734915,
-    "longitude": 78.25460299999997,
-    "storeId": 32,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Android 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 37,
-    "latitude": 26.288128999999998,
-    "longitude": 49.992880000000014,
-    "storeId": 3,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Windows 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 45,
-    "latitude": -54.112469,
-    "longitude": 125.45666799999998,
-    "storeId": 10,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "iOS 14",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 23,
-    "latitude": -11.442003,
-    "longitude": 102.806578,
-    "storeId": 46,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "iOS 14",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 15,
-    "latitude": 58.27673999999999,
-    "longitude": -16.987297000000012,
-    "storeId": 30,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Android 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 17,
-    "latitude": 19.789159999999995,
-    "longitude": -4.266406999999987,
-    "storeId": 35,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Windows 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 2,
-    "latitude": 52.496444,
-    "longitude": -69.731391,
-    "storeId": 39,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Android 10",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 1,
-    "latitude": 12.363078999999999,
-    "longitude": -155.964427,
-    "storeId": 26,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "Windows 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 16,
-    "latitude": 57.664176,
-    "longitude": -6.211107999999996,
-    "storeId": 33,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Android 10",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 35,
-    "latitude": -70.334216,
-    "longitude": -57.842822999999996,
-    "storeId": 42,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "iOS 14",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 7,
-    "latitude": -60.204752,
-    "longitude": 87.765219,
-    "storeId": 34,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Windows 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 15,
-    "latitude": -43.969765,
-    "longitude": 115.21923700000002,
-    "storeId": 35,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Android 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 14,
-    "latitude": -45.849563,
-    "longitude": -136.185845,
-    "storeId": 37,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "iOS 14",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 38,
-    "latitude": 31.135349000000005,
-    "longitude": -108.097424,
-    "storeId": 41,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Android 10",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 26,
-    "latitude": -76.858461,
-    "longitude": -2.9580620000000124,
-    "storeId": 45,
-    "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Android 10",
-      "app_version": "1.2.0"
-    }
-  },
-  {
-    "userId": 7,
-    "latitude": 47.56618700000001,
-    "longitude": -111.579417,
-    "storeId": 11,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "iOS 14",
-      "app_version": "1.1.0"
-    }
-  },
-  {
-    "userId": 34,
-    "latitude": 73.19725600000001,
-    "longitude": 43.66468499999999,
-    "storeId": 32,
-    "deviceInfo": {
-      "device_type": "Smartphone",
-      "os_version": "Android 10",
-      "app_version": "1.0.0"
-    }
-  },
-  {
-    "userId": 43,
-    "latitude": -42.400747,
-    "longitude": 70.248561,
-    "storeId": 44,
-    "deviceInfo": {
-      "device_type": "Tablet",
-      "os_version": "Android 10",
-      "app_version": "1.2.0"
+      "app_version": "1.0.1"
     }
   },
   {
     "userId": 3,
-    "latitude": -43.958715,
-    "longitude": -93.621566,
-    "storeId": 31,
+    "latitude": "-23.516093",
+    "longitude": "-46.617398",
+    "deviceInfo": {
+      "device_type": "Tablet",
+      "os_version": "Android 9",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 4,
+    "latitude": "-23.515193",
+    "longitude": "-46.616998",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "Android 11",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 5,
+    "latitude": "-23.514593",
+    "longitude": "-46.617593",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "iOS 13",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 1,
+    "latitude": "-23.514793",
+    "longitude": "-46.618293",
     "deviceInfo": {
       "device_type": "Smartphone",
       "os_version": "Android 10",
-      "app_version": "1.1.0"
+      "app_version": "1.0.1"
     }
   },
   {
-    "userId": 9,
-    "latitude": 81.35029499999999,
-    "longitude": 5.011358000000001,
-    "storeId": 19,
+    "userId": 2,
+    "latitude": "-23.515198",
+    "longitude": "-46.617273",
     "deviceInfo": {
-      "device_type": "Laptop",
+      "device_type": "Smartphone",
+      "os_version": "iOS 14",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 3,
+    "latitude": "-23.515593",
+    "longitude": "-46.616998",
+    "deviceInfo": {
+      "device_type": "Tablet",
+      "os_version": "Android 9",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 4,
+    "latitude": "-23.516193",
+    "longitude": "-46.617198",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "Android 11",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 5,
+    "latitude": "-23.515393",
+    "longitude": "-46.617893",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "iOS 13",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 1,
+    "latitude": "-23.515693",
+    "longitude": "-46.617193",
+    "deviceInfo": {
+      "device_type": "Smartphone",
       "os_version": "Android 10",
-      "app_version": "1.0.0"
+      "app_version": "1.0.1"
     }
   },
   {
-    "userId": 21,
-    "latitude": 50.98841300000001,
-    "longitude": 180.08459399999998,
-    "storeId": 34,
+    "userId": 2,
+    "latitude": "-23.514798",
+    "longitude": "-46.618198",
     "deviceInfo": {
-      "device_type": "Laptop",
-      "os_version": "Windows 10",
-      "app_version": "1.2.0"
+      "device_type": "Smartphone",
+      "os_version": "iOS 14",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 3,
+    "latitude": "-23.515993",
+    "longitude": "-46.617498",
+    "deviceInfo": {
+      "device_type": "Tablet",
+      "os_version": "Android 9",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 4,
+    "latitude": "-23.514493",
+    "longitude": "-46.618593",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "Android 11",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 5,
+    "latitude": "-23.516193",
+    "longitude": "-46.616993",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "iOS 13",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 1,
+    "latitude": "-23.515893",
+    "longitude": "-46.617093",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "Android 10",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 2,
+    "latitude": "-23.514998",
+    "longitude": "-46.618293",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "iOS 14",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 3,
+    "latitude": "-23.516093",
+    "longitude": "-46.617398",
+    "deviceInfo": {
+      "device_type": "Tablet",
+      "os_version": "Android 9",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 4,
+    "latitude": "-23.515193",
+    "longitude": "-46.617198",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "Android 11",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 5,
+    "latitude": "-23.514593",
+    "longitude": "-46.617793",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "iOS 13",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 1,
+    "latitude": "-23.514793",
+    "longitude": "-46.618493",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "Android 10",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 2,
+    "latitude": "-23.515198",
+    "longitude": "-46.617073",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "iOS 14",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 3,
+    "latitude": "-23.515693",
+    "longitude": "-46.616998",
+    "deviceInfo": {
+      "device_type": "Tablet",
+      "os_version": "Android 9",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 4,
+    "latitude": "-23.516193",
+    "longitude": "-46.617298",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "Android 11",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 5,
+    "latitude": "-23.515393",
+    "longitude": "-46.617393",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "iOS 13",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 1,
+    "latitude": "-23.515793",
+    "longitude": "-46.617693",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "Android 10",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 2,
+    "latitude": "-23.514498",
+    "longitude": "-46.618473",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "iOS 14",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 3,
+    "latitude": "-23.515193",
+    "longitude": "-46.617798",
+    "deviceInfo": {
+      "device_type": "Tablet",
+      "os_version": "Android 9",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 4,
+    "latitude": "-23.515793",
+    "longitude": "-46.617198",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "Android 11",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 5,
+    "latitude": "-23.514893",
+    "longitude": "-46.618593",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "iOS 13",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 1,
+    "latitude": "-23.515993",
+    "longitude": "-46.617793",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "Android 10",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 2,
+    "latitude": "-23.514698",
+    "longitude": "-46.617073",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "iOS 14",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 3,
+    "latitude": "-23.516293",
+    "longitude": "-46.617498",
+    "deviceInfo": {
+      "device_type": "Tablet",
+      "os_version": "Android 9",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 4,
+    "latitude": "-23.515393",
+    "longitude": "-46.616998",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "Android 11",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 5,
+    "latitude": "-23.514193",
+    "longitude": "-46.617793",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "iOS 13",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 1,
+    "latitude": "-23.515293",
+    "longitude": "-46.618293",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "Android 10",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 2,
+    "latitude": "-23.515098",
+    "longitude": "-46.617673",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "iOS 14",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 3,
+    "latitude": "-23.514393",
+    "longitude": "-46.618498",
+    "deviceInfo": {
+      "device_type": "Tablet",
+      "os_version": "Android 9",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 4,
+    "latitude": "-23.514993",
+    "longitude": "-46.617093",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "Android 11",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 5,
+    "latitude": "-23.515693",
+    "longitude": "-46.618293",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "iOS 13",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 1,
+    "latitude": "-23.515593",
+    "longitude": "-46.617893",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "Android 10",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 2,
+    "latitude": "-23.515298",
+    "longitude": "-46.618093",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "iOS 14",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 3,
+    "latitude": "-23.516093",
+    "longitude": "-46.616993",
+    "deviceInfo": {
+      "device_type": "Tablet",
+      "os_version": "Android 9",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 4,
+    "latitude": "-23.514893",
+    "longitude": "-46.617793",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "Android 11",
+      "app_version": "1.0.1"
+    }
+  },
+  {
+    "userId": 5,
+    "latitude": "-23.514593",
+    "longitude": "-46.617393",
+    "deviceInfo": {
+      "device_type": "Smartphone",
+      "os_version": "iOS 13",
+      "app_version": "1.0.1"
     }
   }
 ]

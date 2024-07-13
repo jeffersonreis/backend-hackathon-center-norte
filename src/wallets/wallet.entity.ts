@@ -22,7 +22,4 @@ export class Wallet {
 
   @Column()
   description: string;
-
-  @Column('decimal', { precision: 10, scale: 2 })
-  balance: number;
 }

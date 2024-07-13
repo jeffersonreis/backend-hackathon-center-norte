@@ -20,6 +20,9 @@ export class Store {
   @Column({ length: 100 })
   openingHours: string;
 
+  @Column({ length: 100 })
+  category: string;
+
   @Column({ length: 15 })
   phone: string;
 }

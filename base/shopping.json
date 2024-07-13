@@ -1,0 +1,15 @@
+[{
+  "name": "Viva Center Norte",
+  "address": "Avenida Otto Baumgart, nº 500 - Vila Guilherme",
+  "city": "São Paulo",
+  "state": "SP",
+  "zipCode": "02.049-900",
+  "phone": "4216-4451",
+  "email": "viva@centernorte.com.br",
+  "website": "https://www.centernorte.com.br",
+  "openingHours": "10:00 - 22:00",
+	"minLat": "-23.51639386018189",
+	"maxLat": "-23.514498473716444",
+	"minLong": "-46.61937336923888",
+	"maxLong": "-46.61648424769319"
+}]

@@ -5,5 +5,4 @@ export class CreateWalletDto {
   amount: number;
   type: string;
   description: string;
-  balance: number;
 }

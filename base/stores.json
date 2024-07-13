@@ -1,1 +1,452 @@
-[{"id":"1","name":"Loja do João","address":"Rua das Flores, 123","city":"São Paulo","state":"SP","zipCode":"01001-000","phone":"(11) 1234-5678","email":"contato@lojadojoao.com.br","website":"http://www.lojadojoao.com.br","category":"Roupas","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"2","name":"Supermercado Silva","address":"Avenida Brasil, 456","city":"Rio de Janeiro","state":"RJ","zipCode":"22020-000","phone":"(21) 2345-6789","email":"atendimento@supermercadosilva.com.br","category":"Supermercado","openingHours":{"monday":"08:00-20:00","tuesday":"08:00-20:00","wednesday":"08:00-20:00","thursday":"08:00-20:00","friday":"08:00-20:00","saturday":"08:00-18:00","sunday":"08:00-12:00"}},{"id":"3","name":"Padaria Pão Doce","address":"Rua do Pão, 789","city":"Belo Horizonte","state":"MG","zipCode":"31010-000","phone":"(31) 3456-7890","email":"contato@padoariaopaodoce.com.br","category":"Padaria","openingHours":{"monday":"06:00-20:00","tuesday":"06:00-20:00","wednesday":"06:00-20:00","thursday":"06:00-20:00","friday":"06:00-20:00","saturday":"06:00-18:00","sunday":"06:00-12:00"}},{"id":"4","name":"Eletrônicos Tech","address":"Rua da Tecnologia, 321","city":"Curitiba","state":"PR","zipCode":"80010-000","phone":"(41) 4567-8901","email":"suporte@eletronicostech.com.br","website":"http://www.eletronicostech.com.br","category":"Eletrônicos","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-16:00","sunday":"Fechado"}},{"id":"5","name":"Livraria do Saber","address":"Avenida do Conhecimento, 654","city":"Porto Alegre","state":"RS","zipCode":"90010-000","phone":"(51) 5678-9012","email":"vendas@livrariadosaber.com.br","website":"http://www.livrariadosaber.com.br","category":"Livraria","openingHours":{"monday":"09:00-19:00","tuesday":"09:00-19:00","wednesday":"09:00-19:00","thursday":"09:00-19:00","friday":"09:00-19:00","saturday":"10:00-16:00","sunday":"Fechado"}},{"id":"6","name":"Moda Fashion","address":"Rua da Moda, 112","city":"Fortaleza","state":"CE","zipCode":"60000-000","phone":"(85) 1234-5678","email":"contato@modafashion.com.br","category":"Roupas","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"7","name":"Casa e Construção","address":"Avenida da Construção, 321","city":"Salvador","state":"BA","zipCode":"40000-000","phone":"(71) 2345-6789","email":"contato@casaeconstrucao.com.br","category":"Materiais de Construção","openingHours":{"monday":"08:00-18:00","tuesday":"08:00-18:00","wednesday":"08:00-18:00","thursday":"08:00-18:00","friday":"08:00-18:00","saturday":"08:00-12:00","sunday":"Fechado"}},{"id":"8","name":"Moda Jovem","address":"Rua da Moda, 101","city":"Salvador","state":"BA","zipCode":"40010-000","phone":"(71) 1234-5678","email":"contato@modajovem.com.br","category":"Roupas","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"9","name":"Mercado do Povo","address":"Avenida Central, 202","city":"Fortaleza","state":"CE","zipCode":"60020-000","phone":"(85) 2345-6789","email":"atendimento@mercadodopovo.com.br","category":"Supermercado","openingHours":{"monday":"08:00-20:00","tuesday":"08:00-20:00","wednesday":"08:00-20:00","thursday":"08:00-20:00","friday":"08:00-20:00","saturday":"08:00-18:00","sunday":"08:00-12:00"}},{"id":"10","name":"Padaria Central","address":"Rua dos Pães, 303","city":"Recife","state":"PE","zipCode":"50030-000","phone":"(81) 3456-7890","email":"contato@padariacentral.com.br","category":"Padaria","openingHours":{"monday":"06:00-20:00","tuesday":"06:00-20:00","wednesday":"06:00-20:00","thursday":"06:00-20:00","friday":"06:00-20:00","saturday":"06:00-18:00","sunday":"06:00-12:00"}},{"id":"11","name":"EletroShop","address":"Avenida das Indústrias, 404","city":"Manaus","state":"AM","zipCode":"69040-000","phone":"(92) 4567-8901","email":"suporte@eletroshop.com.br","website":"http://www.eletroshop.com.br","category":"Eletrônicos","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-16:00","sunday":"Fechado"}},{"id":"12","name":"Livraria Cultura","address":"Rua dos Livros, 505","city":"Curitiba","state":"PR","zipCode":"80050-000","phone":"(41) 5678-9012","email":"vendas@livrariacultura.com.br","website":"http://www.livrariacultura.com.br","category":"Livraria","openingHours":{"monday":"09:00-19:00","tuesday":"09:00-19:00","wednesday":"09:00-19:00","thursday":"09:00-19:00","friday":"09:00-19:00","saturday":"10:00-16:00","sunday":"Fechado"}},{"id":"13","name":"Loja de Brinquedos Alegria","address":"Avenida das Crianças, 606","city":"Porto Alegre","state":"RS","zipCode":"90060-000","phone":"(51) 6789-0123","email":"contato@brinquedosalegria.com.br","website":"http://www.brinquedosalegria.com.br","category":"Brinquedos","openingHours":{"monday":"10:00-18:00","tuesday":"10:00-18:00","wednesday":"10:00-18:00","thursday":"10:00-18:00","friday":"10:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"14","name":"Farmácia Popular","address":"Rua da Saúde, 707","city":"Florianópolis","state":"SC","zipCode":"88070-000","phone":"(48) 7890-1234","email":"atendimento@farmaciapopular.com.br","category":"Farmácia","openingHours":{"monday":"08:00-20:00","tuesday":"08:00-20:00","wednesday":"08:00-20:00","thursday":"08:00-20:00","friday":"08:00-20:00","saturday":"08:00-18:00","sunday":"08:00-12:00"}},{"id":"15","name":"PetShop Bichinhos","address":"Rua dos Animais, 808","city":"Brasília","state":"DF","zipCode":"70080-000","phone":"(61) 8901-2345","email":"contato@petshopbichinhos.com.br","category":"Pet Shop","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"16","name":"Móveis Planejados","address":"Avenida dos Móveis, 909","city":"Belo Horizonte","state":"MG","zipCode":"31090-000","phone":"(31) 9012-3456","email":"vendas@moveisplanejados.com.br","website":"http://www.moveisplanejados.com.br","category":"Móveis","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-16:00","sunday":"Fechado"}},{"id":"17","name":"Loja de Esportes","address":"Rua do Esporte, 1001","city":"São Paulo","state":"SP","zipCode":"01001-000","phone":"(11) 2345-6789","email":"contato@lojadeesportes.com.br","category":"Esportes","openingHours":{"monday":"09:00-19:00","tuesday":"09:00-19:00","wednesday":"09:00-19:00","thursday":"09:00-19:00","friday":"09:00-19:00","saturday":"10:00-16:00","sunday":"Fechado"}},{"id":"18","name":"Auto Peças","address":"Avenida dos Carros, 2020","city":"Rio de Janeiro","state":"RJ","zipCode":"22020-000","phone":"(21) 3456-7890","email":"vendas@autopecas.com.br","category":"Auto Peças","openingHours":{"monday":"08:00-18:00","tuesday":"08:00-18:00","wednesday":"08:00-18:00","thursday":"08:00-18:00","friday":"08:00-18:00","saturday":"08:00-12:00","sunday":"Fechado"}},{"id":"19","name":"Boutique Elegância","address":"Rua da Moda, 303","city":"Fortaleza","state":"CE","zipCode":"60030-000","phone":"(85) 4567-8901","email":"contato@boutiqueelegancia.com.br","category":"Roupas","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"20","name":"Cafeteria do Centro","address":"Rua do Café, 404","city":"Recife","state":"PE","zipCode":"50040-000","phone":"(81) 5678-9012","email":"contato@cafeteriadocentro.com.br","category":"Cafeteria","openingHours":{"monday":"07:00-20:00","tuesday":"07:00-20:00","wednesday":"07:00-20:00","thursday":"07:00-20:00","friday":"07:00-20:00","saturday":"08:00-18:00","sunday":"08:00-12:00"}},{"id":"21","name":"Papelaria Escolar","address":"Rua dos Estudantes, 505","city":"Manaus","state":"AM","zipCode":"69050-000","phone":"(92) 6789-0123","email":"vendas@papelariaescolar.com.br","category":"Papelaria","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"22","name":"Loja de Tecidos","address":"Rua dos Tecidos, 606","city":"Curitiba","state":"PR","zipCode":"80060-000","phone":"(41) 7890-1234","email":"contato@lojadetecidos.com.br","category":"Tecidos","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"23","name":"Casa do Pão de Queijo","address":"Avenida dos Lanches, 707","city":"Belo Horizonte","state":"MG","zipCode":"31070-000","phone":"(31) 8901-2345","email":"contato@casadopaodequeijo.com.br","category":"Lanchonete","openingHours":{"monday":"08:00-20:00","tuesday":"08:00-20:00","wednesday":"08:00-20:00","thursday":"08:00-20:00","friday":"08:00-20:00","saturday":"08:00-18:00","sunday":"08:00-12:00"}},{"id":"24","name":"Loja de Calçados","address":"Rua dos Sapatos, 808","city":"São Paulo","state":"SP","zipCode":"01008-000","phone":"(11) 9012-3456","email":"vendas@lojadetecidos.com.br","category":"Calçados","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"25","name":"Joalheria Fina","address":"Rua das Jóias, 909","city":"Rio de Janeiro","state":"RJ","zipCode":"22090-000","phone":"(21) 0123-4567","email":"vendas@joalheriafina.com.br","website":"http://www.joalheriafina.com.br","category":"Joalheria","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"26","name":"Loja de Celulares","address":"Avenida das Comunicações, 1001","city":"Fortaleza","state":"CE","zipCode":"60010-000","phone":"(85) 2345-6789","email":"suporte@lojadecelulares.com.br","website":"http://www.lojadecelulares.com.br","category":"Eletrônicos","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"27","name":"Papelaria Central","address":"Rua dos Cadernos, 202","city":"Recife","state":"PE","zipCode":"50020-000","phone":"(81) 3456-7890","email":"atendimento@papelariacentral.com.br","category":"Papelaria","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"28","name":"Empório Gourmet","address":"Avenida dos Sabores, 303","city":"Manaus","state":"AM","zipCode":"69030-000","phone":"(92) 4567-8901","email":"vendas@emporiogourmet.com.br","category":"Empório","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"29","name":"Casa de Doces","address":"Rua das Delícias, 404","city":"Curitiba","state":"PR","zipCode":"80040-000","phone":"(41) 5678-9012","email":"contato@casadedoces.com.br","category":"Doces","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"30","name":"Loja de Brinquedos Diversão","address":"Rua das Crianças, 505","city":"Porto Alegre","state":"RS","zipCode":"90050-000","phone":"(51) 6789-0123","email":"contato@brinquedosdiversao.com.br","category":"Brinquedos","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"31","name":"Loja de Instrumentos Musicais","address":"Avenida da Música, 606","city":"Florianópolis","state":"SC","zipCode":"88060-000","phone":"(48) 7890-1234","email":"contato@lojademusica.com.br","category":"Instrumentos Musicais","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"32","name":"Casa de Carnes","address":"Rua do Açougue, 707","city":"Brasília","state":"DF","zipCode":"70070-000","phone":"(61) 8901-2345","email":"contato@casadecarnes.com.br","category":"Açougue","openingHours":{"monday":"08:00-20:00","tuesday":"08:00-20:00","wednesday":"08:00-20:00","thursday":"08:00-20:00","friday":"08:00-20:00","saturday":"08:00-18:00","sunday":"08:00-12:00"}},{"id":"33","name":"Loja de Decoração","address":"Avenida dos Decoradores, 808","city":"Belo Horizonte","state":"MG","zipCode":"31080-000","phone":"(31) 9012-3456","email":"vendas@lojadedecoracao.com.br","category":"Decoração","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"34","name":"Loja de Ferragens","address":"Rua das Ferragens, 909","city":"São Paulo","state":"SP","zipCode":"01009-000","phone":"(11) 0123-4567","email":"vendas@lojadeferragens.com.br","category":"Ferragens","openingHours":{"monday":"08:00-18:00","tuesday":"08:00-18:00","wednesday":"08:00-18:00","thursday":"08:00-18:00","friday":"08:00-18:00","saturday":"08:00-12:00","sunday":"Fechado"}},{"id":"35","name":"Livraria Estudante","address":"Avenida dos Estudantes, 1010","city":"Rio de Janeiro","state":"RJ","zipCode":"22010-000","phone":"(21) 1234-5678","email":"vendas@livrariaestudante.com.br","website":"http://www.livrariaestudante.com.br","category":"Livraria","openingHours":{"monday":"09:00-19:00","tuesday":"09:00-19:00","wednesday":"09:00-19:00","thursday":"09:00-19:00","friday":"09:00-19:00","saturday":"10:00-16:00","sunday":"Fechado"}},{"id":"36","name":"Loja de Cosméticos","address":"Rua da Beleza, 2020","city":"Fortaleza","state":"CE","zipCode":"60020-000","phone":"(85) 3456-7890","email":"vendas@lojadecosmeticos.com.br","category":"Cosméticos","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"37","name":"Loja de Material Esportivo","address":"Avenida do Esporte, 3030","city":"Recife","state":"PE","zipCode":"50030-000","phone":"(81) 4567-8901","email":"vendas@materialesportivo.com.br","category":"Material Esportivo","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"38","name":"Loja de Presentes","address":"Rua dos Presentes, 4040","city":"Manaus","state":"AM","zipCode":"69040-000","phone":"(92) 5678-9012","email":"vendas@lojadepresentes.com.br","category":"Presentes","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"39","name":"Loja de Roupas Infantis","address":"Rua das Crianças, 5050","city":"Curitiba","state":"PR","zipCode":"80050-000","phone":"(41) 6789-0123","email":"vendas@roupasinfantis.com.br","category":"Roupas Infantis","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"40","name":"Loja de Eletrodomésticos","address":"Avenida dos Eletros, 6060","city":"Porto Alegre","state":"RS","zipCode":"90060-000","phone":"(51) 7890-1234","email":"vendas@eletrodomesticos.com.br","category":"Eletrodomésticos","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"41","name":"Loja de Suplementos","address":"Rua da Saúde, 7070","city":"Florianópolis","state":"SC","zipCode":"88070-000","phone":"(48) 8901-2345","email":"vendas@suplementos.com.br","category":"Suplementos","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"42","name":"Loja de Móveis","address":"Rua dos Móveis, 8080","city":"Brasília","state":"DF","zipCode":"70080-000","phone":"(61) 9012-3456","email":"vendas@lojademoveis.com.br","website":"http://www.lojademoveis.com.br","category":"Móveis","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"43","name":"Loja de Equipamentos de Informática","address":"Avenida da Tecnologia, 9090","city":"Belo Horizonte","state":"MG","zipCode":"31090-000","phone":"(31) 0123-4567","email":"suporte@lojadeinformatica.com.br","website":"http://www.lojadeinformatica.com.br","category":"Informática","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"44","name":"Loja de Produtos Naturais","address":"Rua da Natureza, 1010","city":"São Paulo","state":"SP","zipCode":"01010-000","phone":"(11) 1234-5678","email":"vendas@produtosnaturais.com.br","category":"Produtos Naturais","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"45","name":"Loja de Utensílios Domésticos","address":"Avenida dos Utensílios, 1111","city":"Rio de Janeiro","state":"RJ","zipCode":"22011-000","phone":"(21) 2345-6789","email":"vendas@utensiliosdomesticos.com.br","category":"Utensílios Domésticos","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"46","name":"Loja de Bicicletas","address":"Rua das Bicicletas, 1212","city":"Fortaleza","state":"CE","zipCode":"60012-000","phone":"(85) 3456-7890","email":"vendas@lojadebicicletas.com.br","category":"Bicicletas","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}},{"id":"47","name":"Loja de Brinquedos Alegria","address":"Avenida das Crianças, 400","city":"Fortaleza","state":"CE","zipCode":"60010-000","phone":"(85) 3456-7890","email":"contato@alegriabrinquedos.com.br","category":"Brinquedos","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-16:00","sunday":"Fechado"}},{"id":"48","name":"Café e Companhia","address":"Rua do Café, 123","city":"Salvador","state":"BA","zipCode":"40010-000","phone":"(71) 2345-6789","email":"contato@cafeecompanhia.com.br","category":"Cafeteria","openingHours":{"monday":"07:00-20:00","tuesday":"07:00-20:00","wednesday":"07:00-20:00","thursday":"07:00-20:00","friday":"07:00-20:00","saturday":"08:00-18:00","sunday":"08:00-14:00"}},{"id":"49","name":"Pet Shop Animalia","address":"Avenida dos Bichos, 321","city":"Curitiba","state":"PR","zipCode":"80020-000","phone":"(41) 4567-8901","email":"contato@petshopanimalia.com.br","category":"Pet Shop","openingHours":{"monday":"09:00-19:00","tuesday":"09:00-19:00","wednesday":"09:00-19:00","thursday":"09:00-19:00","friday":"09:00-19:00","saturday":"09:00-17:00","sunday":"Fechado"}},{"id":"50","name":"Empório Dos Sabores","address":"Avenida dos Sabores, 670","city":"Manaus","state":"AM","zipCode":"69030-040","phone":"(92) 4567-8901","email":"vendas@emporiodossabores.com.br","category":"Empório","openingHours":{"monday":"09:00-18:00","tuesday":"09:00-18:00","wednesday":"09:00-18:00","thursday":"09:00-18:00","friday":"09:00-18:00","saturday":"10:00-14:00","sunday":"Fechado"}}]
+[
+  {
+    "id": 1,
+    "name": "Tech World",
+    "shoppingId": 1,
+    "website": "contato@techworld.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4321",
+    "category": "Tecnologia"
+  },
+  {
+    "id": 2,
+    "name": "Fashion Spot",
+    "shoppingId": 1,
+    "website": "contato@fashionspot.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4322",
+    "category": "Moda"
+  },
+  {
+    "id": 3,
+    "name": "Casa & Conforto",
+    "shoppingId": 1,
+    "website": "contato@casaeconforto.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4323",
+    "category": "Decoração"
+  },
+  {
+    "id": 4,
+    "name": "Kids Fun",
+    "shoppingId": 1,
+    "website": "contato@kidsfun.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4324",
+    "category": "Brinquedos"
+  },
+  {
+    "id": 5,
+    "name": "Gourmet House",
+    "shoppingId": 1,
+    "website": "contato@gourmethouse.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4325",
+    "category": "Gastronomia"
+  },
+  {
+    "id": 6,
+    "name": "Books & Co.",
+    "shoppingId": 1,
+    "website": "contato@booksco.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4326",
+    "category": "Livros"
+  },
+  {
+    "id": 7,
+    "name": "Sport Zone",
+    "shoppingId": 1,
+    "website": "contato@sportzone.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4327",
+    "category": "Esportes"
+  },
+  {
+    "id": 8,
+    "name": "Beauty Store",
+    "shoppingId": 1,
+    "website": "contato@beautystore.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4328",
+    "category": "Beleza"
+  },
+  {
+    "id": 9,
+    "name": "Pet World",
+    "shoppingId": 1,
+    "website": "contato@petworld.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4329",
+    "category": "Animais"
+  },
+  {
+    "id": 10,
+    "name": "Eletrônicos & Cia",
+    "shoppingId": 1,
+    "website": "contato@eletronicoscia.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4330",
+    "category": "Eletrônicos"
+  },
+  {
+    "id": 11,
+    "name": "Jóias & Relógios",
+    "shoppingId": 1,
+    "website": "contato@joiaserelogios.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4331",
+    "category": "Acessórios"
+  },
+  {
+    "id": 12,
+    "name": "Cinema Center",
+    "shoppingId": 1,
+    "website": "contato@cinemacenter.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4332",
+    "category": "Entretenimento"
+  },
+  {
+    "id": 13,
+    "name": "Baby Shop",
+    "shoppingId": 1,
+    "website": "contato@babyshop.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4333",
+    "category": "Infantil"
+  },
+  {
+    "id": 14,
+    "name": "Natureza Viva",
+    "shoppingId": 1,
+    "website": "contato@naturezaviva.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4334",
+    "category": "Produtos Naturais"
+  },
+  {
+    "id": 15,
+    "name": "Fitness World",
+    "shoppingId": 1,
+    "website": "contato@fitnessworld.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4335",
+    "category": "Esportes"
+  },
+  {
+    "id": 16,
+    "name": "Brinquedoteca",
+    "shoppingId": 1,
+    "website": "contato@brinquedoteca.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4336",
+    "category": "Brinquedos"
+  },
+  {
+    "id": 17,
+    "name": "Moda Plus",
+    "shoppingId": 1,
+    "website": "contato@modaplus.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4337",
+    "category": "Moda"
+  },
+  {
+    "id": 18,
+    "name": "Games & Co.",
+    "shoppingId": 1,
+    "website": "contato@gamesco.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4338",
+    "category": "Jogos"
+  },
+  {
+    "id": 19,
+    "name": "Supermercado Center",
+    "shoppingId": 1,
+    "website": "contato@supermercadocenter.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4339",
+    "category": "Alimentos"
+  },
+  {
+    "id": 20,
+    "name": "Doceria Center",
+    "shoppingId": 1,
+    "website": "contato@doceriacenter.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4340",
+    "category": "Gastronomia"
+  },
+  {
+    "id": 21,
+    "name": "Lanchonete Fast",
+    "shoppingId": 1,
+    "website": "contato@lanchonetefast.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4341",
+    "category": "Gastronomia"
+  },
+  {
+    "id": 22,
+    "name": "Sorveteria Gelada",
+    "shoppingId": 1,
+    "website": "contato@sorveteriagelada.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4342",
+    "category": "Gastronomia"
+  },
+  {
+    "id": 23,
+    "name": "Papelaria Center",
+    "shoppingId": 1,
+    "website": "contato@papelariacenter.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4343",
+    "category": "Papelaria"
+  },
+  {
+    "id": 24,
+    "name": "Musical Center",
+    "shoppingId": 1,
+    "website": "contato@musicalcenter.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4344",
+    "category": "Instrumentos Musicais"
+  },
+  {
+    "id": 25,
+    "name": "Floricultura Center",
+    "shoppingId": 1,
+    "website": "contato@floriculturacenter.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4345",
+    "category": "Flores"
+  },
+  {
+    "id": 26,
+    "name": "Moda Fitness",
+    "shoppingId": 1,
+    "website": "contato@modafitness.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4346",
+    "category": "Moda"
+  },
+  {
+    "id": 27,
+    "name": "Chocolates Center",
+    "shoppingId": 1,
+    "website": "contato@chocolatescenter.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4347",
+    "category": "Gastronomia"
+  },
+  {
+    "id": 28,
+    "name": "Presentes & Co.",
+    "shoppingId": 1,
+    "website": "contato@presentesco.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4348",
+    "category": "Presentes"
+  },
+  {
+    "id": 29,
+    "name": "Empório Gourmet",
+    "shoppingId": 1,
+    "website": "contato@emporiogourmet.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4349",
+    "category": "Gastronomia"
+  },
+  {
+    "id": 30,
+    "name": "Loja de Brinquedos",
+    "shoppingId": 1,
+    "website": "contato@lojadebrinquedos.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4350",
+    "category": "Brinquedos"
+  },
+  {
+    "id": 31,
+    "name": "Ótica Center",
+    "shoppingId": 1,
+    "website": "contato@oticacenter.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4351",
+    "category": "Ótica"
+  },
+  {
+    "id": 32,
+    "name": "Casa das Frutas",
+    "shoppingId": 1,
+    "website": "contato@casadasfrutas.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4352",
+    "category": "Alimentos"
+  },
+  {
+    "id": 33,
+    "name": "Sapatos & Cia",
+    "shoppingId": 1,
+    "website": "contato@sapatoscia.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4353",
+    "category": "Calçados"
+  },
+  {
+    "id": 34,
+    "name": "Ferragens Center",
+    "shoppingId": 1,
+    "website": "contato@ferragenscenter.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4354",
+    "category": "Ferragens"
+  },
+  {
+    "id": 35,
+    "name": "Cosméticos & Cia",
+    "shoppingId": 1,
+    "website": "contato@cosmeticoscia.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4355",
+    "category": "Beleza"
+  },
+  {
+    "id": 36,
+    "name": "Loja de Conveniência",
+    "shoppingId": 1,
+    "website": "contato@lojadeconveniencia.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4356",
+    "category": "Conveniência"
+  },
+  {
+    "id": 37,
+    "name": "Relojoaria Center",
+    "shoppingId": 1,
+    "website": "contato@relojoariacenter.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4357",
+    "category": "Acessórios"
+  },
+  {
+    "id": 38,
+    "name": "Loja de Perfumes",
+    "shoppingId": 1,
+    "website": "contato@lojadeperfumes.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4358",
+    "category": "Beleza"
+  },
+  {
+    "id": 39,
+    "name": "Loja de Esportes",
+    "shoppingId": 1,
+    "website": "contato@lojadeesportes.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4359",
+    "category": "Esportes"
+  },
+  {
+    "id": 40,
+    "name": "Loja de Bicicletas",
+    "shoppingId": 1,
+    "website": "contato@lojadebicicletas.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4360",
+    "category": "Esportes"
+  },
+  {
+    "id": 41,
+    "name": "Loja de Presentes",
+    "shoppingId": 1,
+    "website": "contato@lojadepresentes.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4361",
+    "category": "Presentes"
+  },
+  {
+    "id": 42,
+    "name": "Eletrodomésticos Center",
+    "shoppingId": 1,
+    "website": "contato@eletrodomesticoscenter.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4362",
+    "category": "Eletrodomésticos"
+  },
+  {
+    "id": 43,
+    "name": "Ferramentas & Cia",
+    "shoppingId": 1,
+    "website": "contato@ferramentascia.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4363",
+    "category": "Ferramentas"
+  },
+  {
+    "id": 44,
+    "name": "Loja de Utilidades",
+    "shoppingId": 1,
+    "website": "contato@lojadeutilidades.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4364",
+    "category": "Utilidades"
+  },
+  {
+    "id": 45,
+    "name": "Loja de Artigos Esportivos",
+    "shoppingId": 1,
+    "website": "contato@lojadeartigosesportivos.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4365",
+    "category": "Esportes"
+  },
+  {
+    "id": 46,
+    "name": "Loja de Móveis",
+    "shoppingId": 1,
+    "website": "contato@lojademoveis.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4366",
+    "category": "Móveis"
+  },
+  {
+    "id": 47,
+    "name": "Loja de Utensílios Domésticos",
+    "shoppingId": 1,
+    "website": "contato@lojadeutensiliosdomesticos.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4367",
+    "category": "Utilidades"
+  },
+  {
+    "id": 48,
+    "name": "Loja de Artigos Infantis",
+    "shoppingId": 1,
+    "website": "contato@lojadeartigosinfantis.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4368",
+    "category": "Infantil"
+  },
+  {
+    "id": 49,
+    "name": "Loja de Equipamentos Eletrônicos",
+    "shoppingId": 1,
+    "website": "contato@lojadeequipamentoseletronicos.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4369",
+    "category": "Eletrônicos"
+  },
+  {
+    "id": 50,
+    "name": "Loja de Alimentos Saudáveis",
+    "shoppingId": 1,
+    "website": "contato@lojadealimentos.com.br",
+    "openingHours": "10:00 - 22:00",
+    "phone": "(11) 8765-4370",
+    "category": "Alimentos"
+  }
+]
