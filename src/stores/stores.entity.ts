@@ -3,6 +3,9 @@ import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 @Entity()
 export class Store {
   @PrimaryGeneratedColumn()
+  primaryKey: number; 
+  
+  @Column()
   id: number;
 
   @Column({ length: 100 })
@@ -10,9 +13,6 @@ export class Store {
 
   @Column()
   shoppingId: number;
-  
-  @Column({ length: 100 })
-  email: string;
 
   @Column({ length: 100 })
   website: string;

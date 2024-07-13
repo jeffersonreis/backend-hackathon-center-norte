@@ -3,6 +3,9 @@ import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 @Entity()
 export class Customer {
   @PrimaryGeneratedColumn()
+  primaryKey: number; 
+  
+  @Column()
   id: number;
 
   @Column({ length: 50 })

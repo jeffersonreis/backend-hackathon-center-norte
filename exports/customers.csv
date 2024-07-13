@@ -1,2 +1,6 @@
 ID,First Name,Last Name,Address,City,State,Zip Code,Phone,Email,Date of Birth,Registration Date,Preferences
-1,Carlos,Silva,"Rua das Palmeiras, 10",São Paulo,SP,01001-000,(11) 1234-5678,carlos.silva@gmail.com,1985-05-15,Thu Jan 09 2020 21:00:00 GMT-0300 (Brasilia Standard Time),"Eletrônicos,Livros,Esportes"
+1,Luiz,Medeiros,"Avenida Paulista, 1578",São Paulo,SP,01310-200,(11) 9876-5432,luiz.medeiros@decoracao.com,1972-04-12,Wed Mar 15 2023 00:00:00 GMT-0300 (Brasilia Standard Time),"Móveis,Decoração,Eventos"
+2,Vera,Silva,"Rua dos Três Irmãos, 55",São Paulo,SP,05445-040,(11) 9987-6543,vera.silva@familia.com,1985-09-23,Sun Jul 10 2022 00:00:00 GMT-0300 (Brasilia Standard Time),"Cinema,Restaurantes,Reformas"
+3,Lúcia,Almeida,"Rua Vergueiro, 1200",São Paulo,SP,04102-000,(11) 9123-4567,lucia.almeida@comemoracoes.com,1994-07-30,Fri Jan 05 2024 00:00:00 GMT-0300 (Brasilia Standard Time),"Moda,Gastronomia,Festas"
+4,Vitor,Pereira,"Rua Augusta, 2400",São Paulo,SP,01412-000,(11) 9432-8765,vitor.pereira@novoemprego.com,1990-03-18,Sun Feb 25 2024 00:00:00 GMT-0300 (Brasilia Standard Time),"Móveis,Decoração,Tecnologia"
+5,André,Lopes,"Rua Haddock Lobo, 1580",São Paulo,SP,01414-002,(11) 9345-6789,andre.lopes@luizalabs.com,1987-11-22,Wed Sep 15 2021 00:00:00 GMT-0300 (Brasilia Standard Time),"Gastronomia,Tecnologia,Trabalho"

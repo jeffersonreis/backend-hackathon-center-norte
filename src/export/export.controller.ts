@@ -34,4 +34,11 @@ export class ExportController {
     const csvPath = await this.exportService.exportWalletsToCSV();
     res.download(csvPath);
   }
+
+  // @Get('shopping')
+  // @HttpCode(HttpStatus.OK)
+  // async exportShopping(@Res() res: Response) {
+  //   const csvPath = await this.exportService.exportShoppingToCSV();
+  //   res.download(csvPath);
+  // }
 }

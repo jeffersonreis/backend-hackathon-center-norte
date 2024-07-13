@@ -13,12 +13,6 @@ export class WalletsService {
   ) {}
 
   async create(createWalletDto: CreateWalletDto): Promise<Wallet> {
-    const existingWallet = await this.walletRepository.findOne({
-      where: { customerId: createWalletDto.customerId },
-    });
-    if (existingWallet) {
-      throw new BadRequestException(`Wallet for customer ID ${createWalletDto.customerId} already exists.`);
-    }
     const wallet = this.walletRepository.create(createWalletDto);
     return this.walletRepository.save(wallet);
   }

@@ -1,2 +1,45 @@
 ID,Customer ID,Balance,Store ID,Date,Amount,Type,Description
-1,1,100.5,1,2024-07-12,100.5,credit,Initial deposit
+12,1,,1,2024-07-12,1500.00,credit,Compra na Loja Tech World
+13,1,,3,2024-07-10,500.00,credit,Compra na Loja Casa & Conforto
+14,1,,46,2024-07-01,2000.00,credit,Compra na Loja de Móveis
+15,2,,12,2024-06-25,300.00,credit,Compra na Loja Cinema Center
+16,2,,21,2024-07-05,150.00,credit,Compra na Loja Lanchonete Fast
+17,2,,30,2024-06-30,400.00,credit,Compra na Loja de Brinquedos
+18,3,,2,2024-07-03,800.00,credit,Compra na Loja Fashion Spot
+19,3,,27,2024-07-01,100.00,credit,Compra na Loja Chocolates Center
+20,3,,29,2024-06-28,500.00,credit,Compra na Loja Empório Gourmet
+21,4,,3,2024-07-08,1200.00,credit,Compra na Loja Casa & Conforto
+22,4,,1,2024-06-29,1500.00,credit,Compra na Loja Tech World
+23,4,,46,2024-07-02,800.00,credit,Compra na Loja de Móveis
+24,5,,20,2024-07-04,200.00,credit,Compra na Loja Doceria Center
+25,5,,21,2024-06-26,100.00,credit,Compra na Loja Lanchonete Fast
+26,5,,42,2024-07-06,900.00,credit,Compra na Loja Eletrodomésticos Center
+27,2,,5,2024-07-07,250.00,credit,Compra na Loja Gourmet House
+28,3,,17,2024-07-09,300.00,credit,Compra na Loja Moda Plus
+29,3,,33,2024-07-10,400.00,credit,Compra na Loja Sapatos & Cia
+30,1,,10,2024-07-12,750.00,credit,Compra na Loja Eletrônicos & Cia
+31,4,,15,2024-07-13,600.00,credit,Compra na Loja Fitness World
+32,5,,23,2024-07-11,150.00,credit,Compra na Loja Papelaria Center
+33,5,,8,2024-07-14,100.00,credit,Compra na Loja Beauty Store
+34,1,,24,2024-07-15,350.00,credit,Compra na Loja Musical Center
+35,2,,11,2024-07-16,200.00,credit,Compra na Loja Jóias & Relógios
+36,2,,18,2024-07-17,180.00,credit,Compra na Loja Games & Co.
+37,3,,19,2024-07-18,450.00,credit,Compra na Loja Supermercado Center
+38,3,,26,2024-07-19,500.00,credit,Compra na Loja Moda Fitness
+39,5,,28,2024-07-20,100.00,credit,Compra na Loja Presentes & Co.
+40,1,,6,2024-07-21,300.00,credit,Compra na Loja Books & Co.
+41,2,,4,2024-07-22,150.00,credit,Compra na Loja Kids Fun
+42,4,,9,2024-07-23,300.00,credit,Compra na Loja Pet World
+43,3,,13,2024-07-24,200.00,credit,Compra na Loja Baby Shop
+44,2,,16,2024-07-25,250.00,credit,Compra na Loja Brinquedoteca
+45,5,,31,2024-07-26,100.00,credit,Compra na Loja Ótica Center
+46,1,,7,2024-07-27,500.00,credit,Compra na Loja Sport Zone
+47,2,,14,2024-07-28,150.00,credit,Compra na Loja Natureza Viva
+48,3,,25,2024-07-29,200.00,credit,Compra na Loja Floricultura Center
+49,4,,22,2024-07-30,100.00,credit,Compra na Loja Sorveteria Gelada
+50,5,,34,2024-07-31,300.00,credit,Compra na Loja Ferragens Center
+51,1,,35,2024-08-01,150.00,credit,Compra na Loja Cosméticos & Cia
+52,2,,37,2024-08-02,200.00,credit,Compra na Loja Relojoaria Center
+53,3,,38,2024-08-03,150.00,credit,Compra na Loja de Perfumes
+54,4,,40,2024-08-04,400.00,credit,Compra na Loja de Bicicletas
+55,5,,45,2024-08-05,300.00,credit,Compra na Loja de Artigos Esportivos

@@ -57,10 +57,10 @@ export class ExportService {
       header: [
         { id: 'id', title: 'ID' },
         { id: 'name', title: 'Name' },
-        { id: 'address', title: 'Address' },
-        { id: 'city', title: 'City' },
-        { id: 'state', title: 'State' },
-        { id: 'zipCode', title: 'Zip Code' },
+        { id: 'shoppingId', title: 'Shopping' },
+        { id: 'website', title: 'Website' },
+        { id: 'openingHours', title: 'OpeningHours' },
+        { id: 'category', title: 'Category' },
         { id: 'phone', title: 'Phone' },
       ],
     });
@@ -78,8 +78,7 @@ export class ExportService {
       header: [
         { id: 'id', title: 'ID' },
         { id: 'userId', title: 'User ID' },
-        { id: 'latitude', title: 'Latitude' },
-        { id: 'longitude', title: 'Longitude' },
+        { id: 'latitude_longitude', title: 'Latitude e Longitude' },
         { id: 'storeId', title: 'Store ID' },
         { id: 'device_type', title: 'Device Type' },
         { id: 'os_version', title: 'Device OS Version' },
@@ -90,8 +89,7 @@ export class ExportService {
     const records = trackingData.map(item => ({
       id: item.id,
       userId: item.userId,
-      latitude: item.latitude,
-      longitude: item.longitude,
+      latitude_longitude: `${item.latitude}, ${item.longitude}`,
       storeId: item.storeId || '',
       device_type: item.deviceInfo.device_type,
       os_version: item.deviceInfo.os_version,
@@ -111,7 +109,6 @@ export class ExportService {
       header: [
         { id: 'id', title: 'ID' },
         { id: 'customerId', title: 'Customer ID' },
-        { id: 'balance', title: 'Balance' },
         { id: 'storeId', title: 'Store ID' },
         { id: 'date', title: 'Date' },
         { id: 'amount', title: 'Amount' },
@@ -123,4 +120,27 @@ export class ExportService {
     await csvWriter.writeRecords(wallets);
     return csvPath;
   }
+
+  // async exportShoppingToCSV(): Promise<string> {
+  //   const wallets = await this.walletRepository.find();
+  //   const csvPath = path.join(__dirname, '../../exports/wallets.csv');
+
+  //   const csvWriter = createObjectCsvWriter({
+  //     path: csvPath,
+  //     header: [
+  //       { id: 'id', title: 'ID' },
+  //       { id: 'customerId', title: 'Customer ID' },
+  //       { id: 'balance', title: 'Balance' },
+  //       { id: 'storeId', title: 'Store ID' },
+  //       { id: 'date', title: 'Date' },
+  //       { id: 'amount', title: 'Amount' },
+  //       { id: 'type', title: 'Type' },
+  //       { id: 'description', title: 'Description' }
+  //     ],
+  //   });
+
+  //   await csvWriter.writeRecords(wallets);
+  //   return csvPath;
+  // }
+  
 }

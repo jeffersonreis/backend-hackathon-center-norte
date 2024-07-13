@@ -1,2 +1,51 @@
-ID,Name,Address,City,State,Zip Code,Phone
-
+ID,Name,Shopping,Website,OpeningHours,Category,Phone
+1,Tech World,1,contato@techworld.com.br,10:00 - 22:00,Tecnologia,(11) 8765-4321
+2,Fashion Spot,1,contato@fashionspot.com.br,10:00 - 22:00,Moda,(11) 8765-4322
+3,Casa & Conforto,1,contato@casaeconforto.com.br,10:00 - 22:00,Decoração,(11) 8765-4323
+4,Kids Fun,1,contato@kidsfun.com.br,10:00 - 22:00,Brinquedos,(11) 8765-4324
+5,Gourmet House,1,contato@gourmethouse.com.br,10:00 - 22:00,Gastronomia,(11) 8765-4325
+6,Books & Co.,1,contato@booksco.com.br,10:00 - 22:00,Livros,(11) 8765-4326
+7,Sport Zone,1,contato@sportzone.com.br,10:00 - 22:00,Esportes,(11) 8765-4327
+8,Beauty Store,1,contato@beautystore.com.br,10:00 - 22:00,Beleza,(11) 8765-4328
+9,Pet World,1,contato@petworld.com.br,10:00 - 22:00,Animais,(11) 8765-4329
+10,Eletrônicos & Cia,1,contato@eletronicoscia.com.br,10:00 - 22:00,Eletrônicos,(11) 8765-4330
+11,Jóias & Relógios,1,contato@joiaserelogios.com.br,10:00 - 22:00,Acessórios,(11) 8765-4331
+12,Cinema Center,1,contato@cinemacenter.com.br,10:00 - 22:00,Entretenimento,(11) 8765-4332
+13,Baby Shop,1,contato@babyshop.com.br,10:00 - 22:00,Infantil,(11) 8765-4333
+14,Natureza Viva,1,contato@naturezaviva.com.br,10:00 - 22:00,Produtos Naturais,(11) 8765-4334
+15,Fitness World,1,contato@fitnessworld.com.br,10:00 - 22:00,Esportes,(11) 8765-4335
+16,Brinquedoteca,1,contato@brinquedoteca.com.br,10:00 - 22:00,Brinquedos,(11) 8765-4336
+17,Moda Plus,1,contato@modaplus.com.br,10:00 - 22:00,Moda,(11) 8765-4337
+18,Games & Co.,1,contato@gamesco.com.br,10:00 - 22:00,Jogos,(11) 8765-4338
+19,Supermercado Center,1,contato@supermercadocenter.com.br,10:00 - 22:00,Alimentos,(11) 8765-4339
+20,Doceria Center,1,contato@doceriacenter.com.br,10:00 - 22:00,Gastronomia,(11) 8765-4340
+21,Lanchonete Fast,1,contato@lanchonetefast.com.br,10:00 - 22:00,Gastronomia,(11) 8765-4341
+22,Sorveteria Gelada,1,contato@sorveteriagelada.com.br,10:00 - 22:00,Gastronomia,(11) 8765-4342
+23,Papelaria Center,1,contato@papelariacenter.com.br,10:00 - 22:00,Papelaria,(11) 8765-4343
+24,Musical Center,1,contato@musicalcenter.com.br,10:00 - 22:00,Instrumentos Musicais,(11) 8765-4344
+25,Floricultura Center,1,contato@floriculturacenter.com.br,10:00 - 22:00,Flores,(11) 8765-4345
+26,Moda Fitness,1,contato@modafitness.com.br,10:00 - 22:00,Moda,(11) 8765-4346
+27,Chocolates Center,1,contato@chocolatescenter.com.br,10:00 - 22:00,Gastronomia,(11) 8765-4347
+28,Presentes & Co.,1,contato@presentesco.com.br,10:00 - 22:00,Presentes,(11) 8765-4348
+29,Empório Gourmet,1,contato@emporiogourmet.com.br,10:00 - 22:00,Gastronomia,(11) 8765-4349
+30,Loja de Brinquedos,1,contato@lojadebrinquedos.com.br,10:00 - 22:00,Brinquedos,(11) 8765-4350
+31,Ótica Center,1,contato@oticacenter.com.br,10:00 - 22:00,Ótica,(11) 8765-4351
+32,Casa das Frutas,1,contato@casadasfrutas.com.br,10:00 - 22:00,Alimentos,(11) 8765-4352
+33,Sapatos & Cia,1,contato@sapatoscia.com.br,10:00 - 22:00,Calçados,(11) 8765-4353
+34,Ferragens Center,1,contato@ferragenscenter.com.br,10:00 - 22:00,Ferragens,(11) 8765-4354
+35,Cosméticos & Cia,1,contato@cosmeticoscia.com.br,10:00 - 22:00,Beleza,(11) 8765-4355
+36,Loja de Conveniência,1,contato@lojadeconveniencia.com.br,10:00 - 22:00,Conveniência,(11) 8765-4356
+37,Relojoaria Center,1,contato@relojoariacenter.com.br,10:00 - 22:00,Acessórios,(11) 8765-4357
+38,Loja de Perfumes,1,contato@lojadeperfumes.com.br,10:00 - 22:00,Beleza,(11) 8765-4358
+39,Loja de Esportes,1,contato@lojadeesportes.com.br,10:00 - 22:00,Esportes,(11) 8765-4359
+40,Loja de Bicicletas,1,contato@lojadebicicletas.com.br,10:00 - 22:00,Esportes,(11) 8765-4360
+41,Loja de Presentes,1,contato@lojadepresentes.com.br,10:00 - 22:00,Presentes,(11) 8765-4361
+42,Eletrodomésticos Center,1,contato@eletrodomesticoscenter.com.br,10:00 - 22:00,Eletrodomésticos,(11) 8765-4362
+43,Ferramentas & Cia,1,contato@ferramentascia.com.br,10:00 - 22:00,Ferramentas,(11) 8765-4363
+44,Loja de Utilidades,1,contato@lojadeutilidades.com.br,10:00 - 22:00,Utilidades,(11) 8765-4364
+45,Loja de Artigos Esportivos,1,contato@lojadeartigosesportivos.com.br,10:00 - 22:00,Esportes,(11) 8765-4365
+46,Loja de Móveis,1,contato@lojademoveis.com.br,10:00 - 22:00,Móveis,(11) 8765-4366
+47,Loja de Utensílios Domésticos,1,contato@lojadeutensiliosdomesticos.com.br,10:00 - 22:00,Utilidades,(11) 8765-4367
+48,Loja de Artigos Infantis,1,contato@lojadeartigosinfantis.com.br,10:00 - 22:00,Infantil,(11) 8765-4368
+49,Loja de Equipamentos Eletrônicos,1,contato@lojadeequipamentoseletronicos.com.br,10:00 - 22:00,Eletrônicos,(11) 8765-4369
+50,Loja de Alimentos Saudáveis,1,contato@lojadealimentos.com.br,10:00 - 22:00,Alimentos,(11) 8765-4370
